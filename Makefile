@@ -12,4 +12,4 @@ mypr:	$(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS)
 
 clean:
-	$(RM) src/*.o mypr
+	$(RM) *.o src/*.o mypr
